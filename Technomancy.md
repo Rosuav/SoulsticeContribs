@@ -16,3 +16,8 @@ least, not during the conversation). There may be services that Rosuav can
 perform for Eva (to move quests along), but she has to earn his respect first,
 by performing some simple fetch quest, perhaps. ("I need the new <nonce> from
 <location> and I can't leave here or <disaster> will happen!")
+
+Rosuav dresses in blues and cyans, muted colours and muted emotions. He tends
+to eschew overt passion in favour of dead-pan elocution, and has an extensive
+vocabulary - and also deliberately misuses words or uses perfectly cromulent
+fakes on occasions.
