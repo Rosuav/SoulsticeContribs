@@ -22,7 +22,8 @@ mkdir Plugins
 cd Plugins
 unzip ~/Downloads/fmodstudio10803ue4.11linux.zip
 
-Open up the project, tell Unreal not to bother converting.
+Open up the project, tell Unreal not to bother converting (if prompted).
+Rebuild the FMOD stuff. (Compilation work.)
 
 To make packaging work properly:
 
@@ -30,3 +31,9 @@ To make packaging work properly:
 2. Build Configuration: Shipping [may or may not be important]
 3. Packaging section, expand "Advanced"
 4. Additional Non-Asset Directories to Package: Add "FMOD"
+
+Then package, saving to ~/tmp/Soulstice
+
+To run the resulting file:
+
+~/tmp/Soulstice/LinuxNoEditor/Soulstice/Binaries/Linux$ ./Soulstice-Linux-Shipping
