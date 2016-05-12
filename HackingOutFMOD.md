@@ -22,6 +22,10 @@ mkdir Plugins
 cd Plugins
 unzip ~/Downloads/fmodstudio10803ue4.11linux.zip
 
+Check file name encodings - check for 8859-1 in:
+FMOD Soulstice/Assets/Noisy Café General Chatter Young.mp3
+Also check for directory permissions, before you wrestle with errno 13s :)
+
 Open up the project, tell Unreal not to bother converting (if prompted).
 Rebuild the FMOD stuff. (Compilation work.)
 
