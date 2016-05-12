@@ -10,7 +10,7 @@ available option.) In order to ensure that citizens get access to such crucial
 services as commerce, clean water, and Chrysalis, roads and paths must be made
 around the time of first construction. Line them up on compass directions, and
 build them slightly raised, and above all, build them well. With long term use
-in mind, build the roads according to Macadam, whose pioneering enthusiasm was
+in mind, build the roads according to MacAdam, whose pioneering enthusiasm was
 the cornerstone (if you'll forgive the pun) of road construction for years; in
 his wisdom, watching drudge labour produce roads that cracked after just seven
 years, he demanded that his workers be paid appropriately. Pep talks and other
