@@ -18,13 +18,13 @@ cd ~/Documents/Unreal\ Projects/
 mkdir Soulstice
 cd Soulstice
 unzip ......stuff.from.google.drive.zip
-mkdir Plugins
-cd Plugins
-unzip ~/Downloads/fmodstudio10803ue4.11linux.zip
+find . -type d -exec chmod 755 {} \;
+mkdir Plugins && cd Plugins && unzip ~/Downloads/fmodstudio10803ue4.11linux.zip
 
-Check file name encodings - check for 8859-1 in:
-FMOD Soulstice/Assets/Noisy Café General Chatter Young.mp3
-Also check for directory permissions, before you wrestle with errno 13s :)
+Fix bad file names - check for ISO-8859-1 encoding:
+* cd FMOD\ Soulstice/Assets
+* pike
+  - foreach (get_dir(), string fn) if (String.range(fn)[1]>127) mv(fn, string_to_utf8(fn));
 
 Open up the project, tell Unreal not to bother converting (if prompted).
 Rebuild the FMOD stuff. (Compilation work.)
@@ -32,7 +32,7 @@ Rebuild the FMOD stuff. (Compilation work.)
 To make packaging work properly:
 
 1. File, Package Project, Packaging Settings
-2. Build Configuration: Shipping [may or may not be important]
+2. Build Configuration: Shipping [otherwise it crashes on start]
 3. Packaging section, expand "Advanced"
 4. Additional Non-Asset Directories to Package: Add "FMOD"
 
