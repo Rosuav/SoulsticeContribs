@@ -36,8 +36,8 @@ To make packaging work properly:
 3. Packaging section, expand "Advanced"
 4. Additional Non-Asset Directories to Package: Add "FMOD"
 
-Then package, saving to ~/tmp/Soulstice
+Then package, saving to ~/SoulsticeContribs
 
 To run the resulting file:
 
-~/tmp/Soulstice/LinuxNoEditor/Soulstice/Binaries/Linux$ ./Soulstice-Linux-Shipping
+~/SoulsticeContribs/LinuxNoEditor/Soulstice/Binaries/Linux$ ./Soulstice-Linux-Shipping
